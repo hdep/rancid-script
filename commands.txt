@@ -1,0 +1,9 @@
+conf t
+vlan 12
+name VLAN-NAME-12
+exit
+vlan 11
+name VLAN-NAME-11
+exit
+exit
+wr
